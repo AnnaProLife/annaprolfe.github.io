@@ -1,0 +1,51 @@
+body {
+	 margin: 0;
+	 padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+.text {
+	font-family: 'Arial', serif;
+	font-size: 15px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.mainBlock {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.screenImage {
+	width: 100%;
+}
+
+.spaceBottom {
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color: #e69c9c;
+	border: 1pt solid black;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.socialBlock {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.socialButton {
+	margin: 5px;
+	text-decoration:none;
+}
