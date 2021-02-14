@@ -1,6 +1,7 @@
 body {
-	 margin: 0;
-	 padding: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #f7f5e9;
 }
 
 a {
@@ -16,23 +17,98 @@ a {
 	text-align: center;
 }
 
+.divider {
+	margin: 20px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #398e94, rgba(0, 0, 0, 0));
+}
+
+.checkMark {
+	color: gray;
+}
+
 .mainBlock {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.topSpace {
+	padding-top: 20px;
 }
 
 .screenImage {
 	width: 100%;
 }
 
+.circleImage {
+	width: 50%;
+	clip-path: circle(50% at center);
+}
+
 .spaceBottom {
 	margin-bottom: 10px;
 }
 
+.plusSymbol {
+	float: left;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background:
+		linear-gradient(black, black),
+		linear-gradient(black, black);
+	background-position: center;
+	background-size: 50% 2px, 2px 50%;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	margin-top: -6px;
+}
+
+.minusSymbol {
+	display: none;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background:
+		linear-gradient(black, black),
+		linear-gradient(#f7f5e9, #f7f5e9);
+	background-position: center;
+	background-size: 50% 2px, 2px 50%;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	margin-top: -6px;
+}
+
+details {
+	margin-bottom: 20px;
+}
+
+details>summary {
+	outline: none;
+	list-style-type: none;
+}
+
+details>p {
+	margin-left: 20px;
+}
+
+details>summary::-webkit-details-marker {
+	display: none;
+}
+
+details[open]>summary>.plusSymbol {
+	display: none;
+}
+
+details[open]>summary>.minusSymbol {
+	display: inline-block;
+}
+
 .button {
-	background-color: #e69c9c;
-	border: 1pt solid black;
-	color: black;
+	background-color: #398e94;
+	border-radius: 10px;
+	color: white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -42,11 +118,15 @@ a {
 }
 
 .socialBlock {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .socialButton {
 	margin: 5px;
-	text-decoration:none;
+	text-decoration: none;
+}
+
+.transitionBack {
+	background-image: linear-gradient(#f7f5e9, #c9b28b);
 }
