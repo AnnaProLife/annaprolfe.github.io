@@ -8,6 +8,11 @@ a {
 	color: inherit;
 }
 
+.maxWidth {
+	max-width: 500px;
+	margin: auto;
+}
+
 .text {
 	font-family: 'Arial', serif;
 	font-size: 15px;
@@ -29,8 +34,8 @@ a {
 }
 
 .mainBlock {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .topSpace {
